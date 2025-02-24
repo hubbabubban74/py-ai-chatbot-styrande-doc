@@ -3,7 +3,7 @@
 ## How to choose version
 
 1. Try to choose the latest
-2. Check that compability to external packages
+2. Check that compability to external packages https://pypi.org/search/
 3. 
 
 ## check version
@@ -25,7 +25,7 @@ pyenv install 3.12.0
 
 ## Creating my python environment
 
-python3.13 -m venv venv
+python3.12 -m venv venv
 
 ### use env
 
@@ -34,4 +34,4 @@ pip install packages
 
 ### install req
 
-pip install -f requirements.txt
+pip install -r requirements.txt
